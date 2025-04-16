@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    ;
+}
+.container div{
+    padding: 40px;
+    background-color: aqua;
+    width: 100px;
+}
+.container1{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-gap: 20px;
+}
+.container1 div{
+    padding: 40px;
+    background-color: aqua;
+    width: 100px;
+}
+@media (max-width:600px){
+body{
+    background-color: green;
+}
+}
+@media (min-width:601px )and (max-width:1200px){
+    body{
+        background-color: yellow;
+    }
+    }
+   
